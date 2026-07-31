@@ -15,7 +15,6 @@ logging.basicConfig(
 
 def main():
     init_db()
-    # بناء التطبيق بالطريقة الحديثة
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
     app.add_handler(start_handler)
