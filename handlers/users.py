@@ -2,8 +2,7 @@ from telegram import Update
 from telegram.ext import ContextTypes
 from database import get_user, set_user_language
 from languages import TEXTS
-from handlers.start import get_main_keyboard
-
+from keyboards import get_main_keyboard
 async def handle_menu_options(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     user = get_user(user_id)
