@@ -9,9 +9,8 @@ ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 REGISTRATION_FEE = 25.0
 
 PAYMENT_METHODS = {
-    "USDT TRC20": "YourUsdtTrc20WalletAddressHere...",
-    "ShamCash": "Account #12345678",
-    "Wish Money": "+961XXXXXXXX",
-    "Western Union": "Name: John Doe, Country: Lebanon",
-    "Office Transfer": "Contact Admin @support_username"
+    "USDT (TRC20)": "يرجى التواصل مع الأدمن للحصول على عنوان المحفظة",
+    "Wish Money": "يرجى التواصل مع الأدمن للحصول على بيانات التحويل",
+    "ShamCash": "يرجى التواصل مع الأدمن للحصول على بيانات التحويل",
+    "تحويل مباشر": "يرجى التواصل مع الأدمن للتنسيق"
 }
