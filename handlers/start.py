@@ -4,7 +4,7 @@ from database import get_user, set_user_language
 from languages import TEXTS
 
 
-async def handle_menu_options(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     user = get_user(user_id)
     if not user:
